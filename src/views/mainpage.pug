@@ -1,0 +1,391 @@
+doctype html
+html
+  include shared/head
+  body
+    .modal-hidden
+      #open_card.box-modal
+        .box-modal_close.arcticmodal-close.card_close
+        .modal_form
+          .modal_top
+            .modal_img
+              div
+                span
+                  img(alt='', src='img/images/7.png')
+            .modal_txt
+              h4
+                | Комплект абразивных сегментов МФ 3 (шлифовальная щетка 50 мм).
+                span 925 рублей
+              p
+                | Комплект 28 штук для сборки шлифовального барабана 50 мм и оправки для электродрели.
+                br
+                |             Основа - влагостойкая шкурка на тканевой основе заказанной зернистости и щетина разной толщины.
+              .modal_foot
+                .number
+                  span.minus -
+                  input(type='text', value='1')
+                  span.plus +
+                a.but_gr(href='#') Положить в корзину
+            .clearfix
+          .modal_pohozhue
+            h2 С ЭТИМ товарОМ еще покупают:
+            .wr_modal_pohozhue
+              a.pohozh_item(href='#')
+                .pohozh_img
+                  span
+                    img(alt='', src='img/images/2.png')
+                .pohozh_txt
+                  h4 Втулка модульная В 25.
+                  p 25 p.
+              a.pohozh_item(href='#')
+                .pohozh_img
+                  span
+                    img(alt='', src='img/images/3.png')
+                .pohozh_txt
+                  h4 Шайба универсальная ШУ.
+                  p 50 p.
+              a.pohozh_item(href='#')
+                .pohozh_img
+                  span
+                    img(alt='', src='img/images/4.png')
+                .pohozh_txt
+                  h4 Шлифовальный барабан Б 100 мм.
+                  p 2000 p.
+              a.pohozh_item(href='#')
+                .pohozh_img
+                  span
+                    img(alt='', src='img/images/5.png')
+                .pohozh_txt
+                  h4 Оправка для электродрели.
+                  p 1650 p.
+    .wraper
+      .closed_menu
+      .closed_menu2
+      header.header
+        .conteiner
+          .top
+            .top_left
+              a.tel1(href='tel:+79165136193')
+                i.fa.fa-mobile(aria-hidden='true')
+                | +7 (916) 513-61-93, +7 (900) 099-07-08
+              a.tel2(href='tel:%20+74959946496')
+                i.fa.fa-phone(aria-hidden='true')
+                |  +7 (495) 994-64-96
+            .top_right
+              a.skype(href='#')
+                i.fa.fa-skype(aria-hidden='true')
+                |  rodnik1718
+              a.mail(href='mailto:calibr_plus@mail.ru')
+                i.fa.fa-envelope-o(aria-hidden='true')
+                |  calibr_plus@mail.ru, ssn1718@mail.ru
+            .clearfix
+          .top2
+            .menu_mob
+              button.pull
+                i.fa.fa-bars(aria-hidden='true')
+                i.fa.fa-times(aria-hidden='true')
+                |  Меню
+              ul
+                li
+                  a(href='#sectionProduction') ПРОДУКЦИЯ
+                li
+                  a(href='#') Акции и скидки
+                li
+                  a(href='#') Доставка и оплата
+                li
+                  a(href='#') О компании
+            .left_top2
+              a.pull2
+                i.fa.fa-phone(aria-hidden='true')
+                | Заказать обратный звонок
+              .wrap_form
+                h4 МЫ ПЕРЕЗВОНИМ ВАМ
+                form
+                  input.input_one(placeholder='Ваше имя', type='text')
+                  input.input_one(placeholder='Ваш Email', required='', type='email')
+                  input.input_one.inp_phone(placeholder='Телефон', type='tel')
+                  input.but_gr(type='submit', value='ОТПРАВИТЬ ЗАЯВКУ')
+            a.logo(href='#')
+              | КАЛИБР плюс
+              span Выбирайте КАЛИБР, а плюсы мы обеспечим!
+            a.basket_top(href='#')
+              span.much 18 598 р
+              i.icon-handbag.icons
+              span.quantity 32
+            .clearfix
+      section.navigation
+        .conteiner
+          ul
+            li
+              a(href='#sectionProduction') ПРОДУКЦИЯ
+            li
+              a(href='ackii.html') Акции и скидки
+            li
+              a(href='dostavka.html') Доставка и оплата
+            li
+              a(href='for_us.html') О компании
+      section.block1
+        .conteiner
+          .left_block
+            .swiper-container
+              .swiper-wrapper
+                .swiper-slide
+                  .block_b_tov
+                    h2 Главное правило шлифования
+                    .blockb_img
+                      span
+                        img(alt='', src='img/images/1.png')
+                    a(href='#sectionProduction') КАТАЛОГ
+                .swiper-slide
+                  .block_b_tov
+                    h2 Главное правило шлифования
+                    .blockb_img
+                      span
+                        img(alt='', src='img/images/1.png')
+                    a(href='#sectionProduction') КАТАЛОГ
+                .swiper-slide
+                  .block_b_tov
+                    h2 Главное правило шлифования
+                    .blockb_img
+                      span
+                        img(alt='', src='img/images/1.png')
+                    a(href='#sectionProduction') КАТАЛОГ
+              // Add Pagination
+              .swiper-pagination
+          .right_block
+            .rb1
+              .swiper-container2
+                .swiper-wrapper
+                  .swiper-slide
+                    .vid_item
+                      a.video_item.fancybox-media(data-fancybox-group='otchet', href='https://www.youtube.com/watch?v=GpOaSh-xao0')
+                        img(alt='', src='img/icons/video.jpg')
+                      .vid_txt
+                        div
+                          h4 Обучающее видео 01.
+                          p Пару слов из описания видео выглядело бы информативнее. Пару слов из описания...
+                  .swiper-slide
+                    .vid_item
+                      a.video_item.fancybox-media(data-fancybox-group='otchet', href='https://www.youtube.com/watch?v=GpOaSh-xao0')
+                        img(alt='', src='img/icons/video.jpg')
+                      .vid_txt
+                        div
+                          h4 Обучающее видео 01.
+                          p Пару слов из описания видео выглядело бы информативнее. Пару слов из описания...
+                  .swiper-slide
+                    .vid_item
+                      a.video_item.fancybox-media(data-fancybox-group='otchet', href='https://www.youtube.com/watch?v=GpOaSh-xao0')
+                        img(alt='', src='img/icons/video.jpg')
+                      .vid_txt
+                        div
+                          h4 Обучающее видео 01.
+                          p Пару слов из описания видео выглядело бы информативнее. Пару слов из описания...
+                // Add Pagination
+                .swiper-pagination2
+            .rb2
+              h4 Помощник
+              span выбора товара
+              a(href='helper.html') Воспользоваться
+          .clearfix
+      section.block2
+        .conteiner
+          .wrap_pre
+            h2.title преимущества нашей продукции
+            span
+              | Тут визуально хорошо ложиться некий общий текст про удобство пользования вашей продукцией
+              b и простоте ее приобретения и т.д. и т.п.
+            .wr_pre
+              .pre_item
+                .pre_img
+                  img(alt='', src='img/icons/icon_pin_alt.png')
+                .pre_txt
+                  h4 Более 15 лет
+                  p
+                    | Мы производим шлифовальные лепестковые щетки разной зернистостью от 60 до 320 для станков, приводов и ручного инструмента и гарантируем обязательства поставки нашим партнерам.
+              .pre_item
+                .pre_img
+                  img(alt='', src='img/icons/icon_pin_alt.png')
+                .pre_txt
+                  h4 шлифовальный вал любой длины
+                  p
+                    | Нашими щетками можно собрать шлифовальный вал любой длины от 50 до 1500 мм с одной зернистостью или с разной зернистостью (ступенями 50 мм) для обработки мелких деталей полным циклом шлифовки.
+              .pre_item
+                .pre_img
+                  img(alt='', src='img/icons/icon_pin_alt.png')
+                .pre_txt
+                  h4 ЩЕТИНА НА ВЫБОР
+                  p
+                    | Для нужной упругости лепестков шлифовального барабана мы предлагаем на выбор щетину разной жесткости и размеров - от 0,2 до 0,4 мм толщиной.
+              .clearfix
+      section.block3
+        .conteiner#sectionProduction
+          .wrap_bord
+            h2.title НАША ПРОДУКЦИЯ
+          .wrap_productions
+            .product_item
+              .product_img
+                span
+                  img(alt='', src='img/images/2.png')
+              .wr_product_txt
+                .product_txt
+                  h4 Шлифовальный барабан Б 100 мм.
+                  p Имеет основные характеристики входящих в комплект барабана...
+                .product_foot
+                  p.much 3250 р
+                  a.open_card Положить в корзину
+            .product_item
+              .product_img
+                span
+                  img(alt='', src='img/images/3.png')
+              .wr_product_txt
+                .product_txt
+                  h4 Шлифовальный барабан Б 200 мм.
+                  p Имеет основные характеристики входящих в комплект барабана...
+                .product_foot
+                  p.much 3250 р
+                  a.open_card Положить в корзину
+            .product_item
+              .product_img
+                span
+                  img(alt='', src='img/images/4.png')
+              .wr_product_txt
+                .product_txt
+                  h4 Втулка модульная В 25.
+                  p Является основой шлифовального барабана. Имеет 28 пазов...
+                .product_foot
+                  p.much 3250 р
+                  a.open_card Положить в корзину
+            .product_item
+              .product_img
+                span
+                  img(alt='', src='img/images/5.png')
+              .wr_product_txt
+                .product_txt
+                  h4 Оправка для электродрели.
+                  p Применяется для подбора зернистости и щетины...
+                .product_foot
+                  p.much 3250 р
+                  a.open_card Положить в корзину
+            .product_item
+              .product_img
+                span
+                  img(alt='', src='img/images/6.png')
+              .wr_product_txt
+                .product_txt
+                  h4 Шайба универсальная ШУ.
+                  p Используется для крепления шлифовального барабана на валу...
+                .product_foot
+                  p.much 3250 р
+                  a.open_card Положить в корзину
+            .product_item
+              .product_img
+                span
+                  img(alt='', src='img/images/7.png')
+              .wr_product_txt
+                .product_txt
+                  h4 Комплект абразивных сегментов МФ 1 (шлифовальная щетка 200 мм)
+                  p 28 штук для сборки шлифовального барабана 200 мм...
+                .product_foot
+                  p.much 3250 р
+                  a.open_card Положить в корзину
+            .product_item
+              .product_img
+                span
+                  img(alt='', src='img/images/8.png')
+              .wr_product_txt
+                .product_txt
+                  h4 Комплект абразивных сегментов МФ 2 (шлифовальная щетка 100 мм)
+                  p 28 штук для сборки шлифовального барабана 100 мм...
+                .product_foot
+                  p.much 3250 р
+                  a.open_card Положить в корзину
+            .product_item
+              .product_img
+                span
+                  img(alt='', src='img/images/9.png')
+              .wr_product_txt
+                .product_txt
+                  h4 Комплект абразивных сегментов МФ 3 (шлифовальная щетка 50 мм)
+                  p 28 штук для сборки шлифовального барабана 50 мм...
+                .product_foot
+                  p.much 3250 р
+                  a.open_card Положить в корзину
+      section.block3
+        .conteiner
+          .wrap_bord
+            h2.title ПОЛЕЗНЫЕ СТАТЬИ
+          .wrap_polza
+            .polza_item
+              .polza_img(style='background:url(img/icons/polza/1.jpg) no-repeat top center;background-size:cover;')
+              .polza_txt
+                .wr_polza_txt
+                  p
+                    | Собирайте легко и правильно Шлифовальный барабан - ИНСТРУКЦИЯ по сборке шлифовального барабана (на примере шириной 200 мм).
+                a(href='#') Читать далее >
+              .clearfix
+            .polza_item
+              .polza_img(style='background:url(img/icons/polza/2.jpg) no-repeat top center;background-size:cover;')
+              .polza_txt
+                .wr_polza_txt
+                  p Главное правило шлифования древесины.
+                  p Для того, чтобы добиться высоких результатов, необходимо...
+                a(href='#') Читать далее >
+              .clearfix
+            .clearfix
+      section.block_txt
+        .conteiner
+          h4 Здест будет город-сад!
+          p
+            | Будет тут текст, пока не известно о чем. Но он будет, объём его тоже пока не известен. Его будут вставлять уже на домене. Будет тут текст, пока не известно о чем. Но он будет, объём его тоже пока не известен. Его будут вставлять уже на домене. Будет тут текст, пока не известно о чем. Но он будет, объём его тоже пока не известен. Его будут вставлять уже на домене. Будет тут текст, пока не известно о чем. Но он будет, объём его тоже пока не известен. Его будут вставлять уже на домене.
+      footer.footer
+        .foot_up
+          .conteiner
+            .foot_item.foot_item1
+              h4 О КОМПАНИИ
+              p
+                | Чем больше калибр, тем мощнее оружие, наличие в нем прочих плюсов определяет ПОБЕДУ и УСПЕХ. Итак: КАЛИБР и плюс.
+                br
+                |             Выбирайте КАЛИБР, а плюсы мы обеспечим!
+            .foot_item.foot_item2
+              h4 мы в соцсетях
+              .soc
+                a(href='#')
+                  i.fa.fa-camera-retro(aria-hidden='true')
+                a(href='#')
+                  i.fa.fa-vk(aria-hidden='true')
+                a(href='#')
+                  i.fa.fa-facebook-square(aria-hidden='true')
+                a(href='#')
+                  i.fa.fa-youtube-play(aria-hidden='true')
+            .foot_item.foot_item3
+              h4 КОНТАКТЫ
+              p
+                | Россия, 143500, МО,
+                br
+                |             г. Истра, ул. Родниковая, 18.
+                a(href='tel:+74959946496') +7 (495) 994-64-96
+                a(href='tel:+79165136193') +7 (916) 513-61-93
+                a(href='tel:+79000990708') +7 (900) 099-07-08
+                a(href='mailto:calibr_plus@mail.ru') E-mail: calibr_plus@mail.ru, ssn1718@mail.ru
+            .foot_item.foot_item4
+              h4 рассылка
+              p Подпишитесь на нашу еженедельную рассылку:
+              form
+                input.input_two(placeholder='Имя', type='text')
+                input.input_two(placeholder='E-mail', required='', type='email')
+                input.but_gr(type='submit', value='ПОДПИСАТЬСЯ!')
+            .clearfix
+        .foot_down
+          .conteiner
+            p КАЛИБР плюс © 2016
+            ul
+              li
+                a(href='#') ПРОДУКЦИЯ
+              li
+                a(href='#') Акции и скидки
+              li
+                a(href='#') Доставка и оплата
+              li
+                a(href='#') О компании
+            .clearfix
+
+    include shared/scripts
