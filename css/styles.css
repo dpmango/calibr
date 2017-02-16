@@ -1148,6 +1148,7 @@ a.logo span {
 
 .product_img span {
   display: table-cell;
+  overflow: hidden;
   height: 180px;
   vertical-align: middle;
 }
@@ -1156,10 +1157,28 @@ a.logo span {
   overflow: hidden;
   max-width: 95%;
   max-height: 100%;
+  -webkit-transition: -webkit-transform .4s ease-out;
+  transition: -webkit-transform .4s ease-out;
+  transition: transform .4s ease-out;
+  transition: transform .4s ease-out, -webkit-transform .4s ease-out;
+}
+
+.product_img:hover img {
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .wr_product_txt {
   padding: 20px 15px 15px;
+}
+
+.wr_product_txt a {
+  color: #323232;
+}
+
+.wr_product_txt a:hover {
+  color: #CC0000;
 }
 
 .product_txt {
@@ -2395,7 +2414,7 @@ a.delete:hover {
 
   .vid_item a img {
     width: 100%;
-    height: 151px;
+    height: auto;
   }
 
   .rb2 {
