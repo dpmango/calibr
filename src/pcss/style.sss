@@ -537,17 +537,26 @@ a.logo
   width: 100%
   background: #EBEBEB
   text-align: center
+  &:hover
+    img
+      transform: scale(1.05)
   span
     display: table-cell
     vertical-align: middle
     height: 180px
+    overflow: hidden
     img
       max-width: 95%
       max-height: 100%
       overflow: hidden
+      transition: transform .4s ease-out
 
 .wr_product_txt
   padding: 20px 15px 15px
+  a
+    color: #323232
+    &:hover
+      color: #CC0000
 
 .product_txt
   color: #323232
